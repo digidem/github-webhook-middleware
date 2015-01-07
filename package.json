@@ -1,6 +1,6 @@
 {
   "name": "github-webhook-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware for receiving and validating Github webhooks",
   "main": "index.js",
   "scripts": {

@@ -13,6 +13,10 @@ Borrows ideas and code from https://github.com/developmentseed/jekyll-hook/ and 
 
 `npm install github-webhook-middleware --save`
 
+## Run tests
+
+`npm test`
+
 ## Usage
 
 ```javascript
