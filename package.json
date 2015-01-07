@@ -1,0 +1,28 @@
+{
+  "name": "github-webhook-middleware",
+  "version": "0.0.1",
+  "description": "Express middleware for receiving and validating Github webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/digidem/github-webhook-middleware"
+  },
+  "keywords": [
+    "github",
+    "webhook",
+    "middleware",
+    "express"
+  ],
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digidem/github-webhook-middleware/issues"
+  },
+  "homepage": "https://github.com/digidem/github-webhook-middleware",
+  "dependencies": {
+    "body-parser": "^1.10.0"
+  }
+}
