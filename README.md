@@ -15,7 +15,7 @@ Borrows ideas and code from https://github.com/developmentseed/jekyll-hook/ and 
 
 ## Usage
 
-```
+```javascript
 var express = require('express');
 var app     = express();
 var githubMiddleware = require('github-webhook-middleware')({
