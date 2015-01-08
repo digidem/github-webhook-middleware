@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/digidem/github-webhook-middleware.svg)](https://travis-ci.org/digidem/github-webhook-middleware)
+
 Github Webhook Middleware
 =========================
 
