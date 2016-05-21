@@ -62,7 +62,7 @@ function getChangedFiles(commits, matchRegex) {
 
 ## Contributing
 
-Pull requests welcome. Needs tests.
+Pull requests welcome.
 
 ## Release History
 
