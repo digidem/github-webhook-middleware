@@ -25,7 +25,8 @@ Borrows ideas and code from https://github.com/developmentseed/jekyll-hook/ and 
 var express = require('express');
 var app     = express();
 var githubMiddleware = require('github-webhook-middleware')({
-  secret: process.env.GITHUB_SECRET
+  secret: process.env.GITHUB_SECRET,
+  limit: '1mb', // <-- optionally include the webhook json payload size limit, useful if you have large merge commits.  Default is '100kb'
 });
 
 app.post('/hooks/github/', githubMiddleware, function(req, res) {
